@@ -12,8 +12,8 @@ def input_to_index(string)
 end
 
 
-def move(index, user_marker = 'X')
-    @board[index] = user_marker
+def move(array, index, user_marker = 'X')
+    array[index] = user_marker
 end
 
 board = [" ", " ", " "]
